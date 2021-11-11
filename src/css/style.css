@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;}	
+:focus,:active{outline:none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+/*-------NULL----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.wrapper {
+position: absolute;
+max-width: 1440px;
+width: 100%;
+overflow: hiden;
+margin: 0px auto;
+padding-left: 16px;
+padding-right: 16px;
+border: 1px solid #805;
+background-color: #0B1F9C;
+	}
+.header {
+	width: 100%;
+	height: 70px;
+	padding: 25px 0 25px 272px;
+	background-color: #0B1F9C;
+}
+a {
+	/* What we offer */
+position: relative;
+height: 20px; 
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: inline-block;
+padding-right: 67px;
+}
+.res {
+	padding-right: 0;
+}
+.offer {
+	position: absolute;
+	padding:0px 0px 0px 244px;
+	}
+.btn {
+	position: relative;
+	padding: 12px 56px 13px 57px;
+	height: 45px;
+	left: 425px;
+	top: 0;
+	border: 1px solid #76FAC1;
+	box-sizing: border-box;
+	border-radius: 100px;
+	}
+
+/* unvisited link */
+a:link {
+  color: #76FAC1;
+}
+
+/* visited link */
+a:visited {
+  color: #76FAC1;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: #76FAC1;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #fff;
+}
+
+/* Vector */
+.vector {
+position: absolute;
+left: 42.29%;
+right: 32.92%;
+top: 0.02%;
+bottom: 94.28%;
+}
+
+
+
